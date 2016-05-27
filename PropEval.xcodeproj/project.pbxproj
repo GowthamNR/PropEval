@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653429FE1A64E2640093714C /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653429FD1A64E2640093714C /* DataViewController.m */; };
+		65342A011A64E9D10093714C /* bl31_tax_third__BL_1315566e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65342A001A64E9D10093714C /* bl31_tax_third__BL_1315566e.jpg */; };
+		659E1D711A62B78D00383CB4 /* banking-jobs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659E1D701A62B78D00383CB4 /* banking-jobs.jpg */; };
+		659E1D731A62B80600383CB4 /* property.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659E1D721A62B80600383CB4 /* property.jpg */; };
+		659E1D761A62B95F00383CB4 /* DetailsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E1D751A62B95F00383CB4 /* DetailsScreen.m */; };
+		659E1D781A62BCB100383CB4 /* Analog-Camera-for-iOS-app-icon-full-size.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659E1D771A62BCB100383CB4 /* Analog-Camera-for-iOS-app-icon-full-size.jpg */; };
+		659E1D7A1A62BCB500383CB4 /* take-notes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659E1D791A62BCB500383CB4 /* take-notes.jpg */; };
+		659E83951A639D820080FB15 /* PhotoPickerScr.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E83941A639D820080FB15 /* PhotoPickerScr.m */; };
+		659E83971A63A2F70080FB15 /* invest-in-real-estate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 659E83961A63A2F70080FB15 /* invest-in-real-estate.jpg */; };
+		659E839D1A63AD600080FB15 /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E839C1A63AD600080FB15 /* NotesViewController.m */; };
 		65F5776E1A6167B9006D2208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5776D1A6167B9006D2208 /* main.m */; };
 		65F577711A6167B9006D2208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F577701A6167B9006D2208 /* AppDelegate.m */; };
 		65F577741A6167B9006D2208 /* PropEval.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F577721A6167B9006D2208 /* PropEval.xcdatamodeld */; };
@@ -15,6 +25,10 @@
 		65F5777C1A6167B9006D2208 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F5777B1A6167B9006D2208 /* Images.xcassets */; };
 		65F5777F1A6167B9006D2208 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F5777D1A6167B9006D2208 /* LaunchScreen.xib */; };
 		65F5778B1A6167B9006D2208 /* PropEvalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5778A1A6167B9006D2208 /* PropEvalTests.m */; };
+		65F577951A61683B006D2208 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F577941A61683B006D2208 /* CoreTelephony.framework */; };
+		65F577971A616841006D2208 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F577961A616841006D2208 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		65F577981A61684B006D2208 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F577941A61683B006D2208 /* CoreTelephony.framework */; };
+		65F577991A61684B006D2208 /* CoreTelephony.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65F577941A61683B006D2208 /* CoreTelephony.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +41,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		65F5779A1A61684B006D2208 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				65F577991A61684B006D2208 /* CoreTelephony.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		653429FC1A64E2640093714C /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		653429FD1A64E2640093714C /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		65342A001A64E9D10093714C /* bl31_tax_third__BL_1315566e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bl31_tax_third__BL_1315566e.jpg; sourceTree = "<group>"; };
+		659E1D701A62B78D00383CB4 /* banking-jobs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "banking-jobs.jpg"; sourceTree = "<group>"; };
+		659E1D721A62B80600383CB4 /* property.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = property.jpg; sourceTree = "<group>"; };
+		659E1D741A62B95F00383CB4 /* DetailsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsScreen.h; sourceTree = "<group>"; };
+		659E1D751A62B95F00383CB4 /* DetailsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsScreen.m; sourceTree = "<group>"; };
+		659E1D771A62BCB100383CB4 /* Analog-Camera-for-iOS-app-icon-full-size.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Analog-Camera-for-iOS-app-icon-full-size.jpg"; sourceTree = "<group>"; };
+		659E1D791A62BCB500383CB4 /* take-notes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "take-notes.jpg"; sourceTree = "<group>"; };
+		659E83931A639D820080FB15 /* PhotoPickerScr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerScr.h; sourceTree = "<group>"; };
+		659E83941A639D820080FB15 /* PhotoPickerScr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerScr.m; sourceTree = "<group>"; };
+		659E83961A63A2F70080FB15 /* invest-in-real-estate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "invest-in-real-estate.jpg"; sourceTree = "<group>"; };
+		659E839B1A63AD600080FB15 /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		659E839C1A63AD600080FB15 /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
 		65F577681A6167B9006D2208 /* PropEval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropEval.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F5776C1A6167B9006D2208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F5776D1A6167B9006D2208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +84,8 @@
 		65F577841A6167B9006D2208 /* PropEvalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropEvalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F577891A6167B9006D2208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F5778A1A6167B9006D2208 /* PropEvalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropEvalTests.m; sourceTree = "<group>"; };
+		65F577941A61683B006D2208 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		65F577961A616841006D2208 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65F577971A616841006D2208 /* CFNetwork.framework in Frameworks */,
+				65F577981A61684B006D2208 /* CoreTelephony.framework in Frameworks */,
+				65F577951A61683B006D2208 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +109,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		653429FF1A64E2880093714C /* Gathered data scr */ = {
+			isa = PBXGroup;
+			children = (
+				653429FC1A64E2640093714C /* DataViewController.h */,
+				653429FD1A64E2640093714C /* DataViewController.m */,
+			);
+			name = "Gathered data scr";
+			sourceTree = "<group>";
+		};
+		659E83981A63A35C0080FB15 /* PropSelectionScr */ = {
+			isa = PBXGroup;
+			children = (
+				65F577751A6167B9006D2208 /* ViewController.h */,
+				65F577761A6167B9006D2208 /* ViewController.m */,
+			);
+			name = PropSelectionScr;
+			sourceTree = "<group>";
+		};
+		659E83991A63A3780080FB15 /* DataCollectionScr */ = {
+			isa = PBXGroup;
+			children = (
+				659E1D741A62B95F00383CB4 /* DetailsScreen.h */,
+				659E1D751A62B95F00383CB4 /* DetailsScreen.m */,
+			);
+			name = DataCollectionScr;
+			sourceTree = "<group>";
+		};
+		659E839A1A63A3990080FB15 /* PhotoSelectionScr */ = {
+			isa = PBXGroup;
+			children = (
+				659E83931A639D820080FB15 /* PhotoPickerScr.h */,
+				659E83941A639D820080FB15 /* PhotoPickerScr.m */,
+			);
+			name = PhotoSelectionScr;
+			sourceTree = "<group>";
+		};
+		659E839E1A63AD6C0080FB15 /* NotesScr */ = {
+			isa = PBXGroup;
+			children = (
+				659E839B1A63AD600080FB15 /* NotesViewController.h */,
+				659E839C1A63AD600080FB15 /* NotesViewController.m */,
+			);
+			name = NotesScr;
+			sourceTree = "<group>";
+		};
 		65F5775F1A6167B8006D2208 = {
 			isa = PBXGroup;
 			children = (
+				65F577961A616841006D2208 /* CFNetwork.framework */,
+				65F577941A61683B006D2208 /* CoreTelephony.framework */,
 				65F5776A1A6167B9006D2208 /* PropEval */,
 				65F577871A6167B9006D2208 /* PropEvalTests */,
 				65F577691A6167B9006D2208 /* Products */,
@@ -83,11 +177,14 @@
 		65F5776A1A6167B9006D2208 /* PropEval */ = {
 			isa = PBXGroup;
 			children = (
+				653429FF1A64E2880093714C /* Gathered data scr */,
 				65F5776F1A6167B9006D2208 /* AppDelegate.h */,
 				65F577701A6167B9006D2208 /* AppDelegate.m */,
-				65F577751A6167B9006D2208 /* ViewController.h */,
-				65F577761A6167B9006D2208 /* ViewController.m */,
 				65F577781A6167B9006D2208 /* Main.storyboard */,
+				659E839E1A63AD6C0080FB15 /* NotesScr */,
+				659E839A1A63A3990080FB15 /* PhotoSelectionScr */,
+				659E83991A63A3780080FB15 /* DataCollectionScr */,
+				659E83981A63A35C0080FB15 /* PropSelectionScr */,
 				65F5777B1A6167B9006D2208 /* Images.xcassets */,
 				65F5777D1A6167B9006D2208 /* LaunchScreen.xib */,
 				65F577721A6167B9006D2208 /* PropEval.xcdatamodeld */,
@@ -99,6 +196,12 @@
 		65F5776B1A6167B9006D2208 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65342A001A64E9D10093714C /* bl31_tax_third__BL_1315566e.jpg */,
+				659E83961A63A2F70080FB15 /* invest-in-real-estate.jpg */,
+				659E1D791A62BCB500383CB4 /* take-notes.jpg */,
+				659E1D721A62B80600383CB4 /* property.jpg */,
+				659E1D771A62BCB100383CB4 /* Analog-Camera-for-iOS-app-icon-full-size.jpg */,
+				659E1D701A62B78D00383CB4 /* banking-jobs.jpg */,
 				65F5776C1A6167B9006D2208 /* Info.plist */,
 				65F5776D1A6167B9006D2208 /* main.m */,
 			);
@@ -132,6 +235,7 @@
 				65F577641A6167B8006D2208 /* Sources */,
 				65F577651A6167B8006D2208 /* Frameworks */,
 				65F577661A6167B8006D2208 /* Resources */,
+				65F5779A1A61684B006D2208 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,8 +306,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659E1D7A1A62BCB500383CB4 /* take-notes.jpg in Resources */,
+				659E83971A63A2F70080FB15 /* invest-in-real-estate.jpg in Resources */,
 				65F5777A1A6167B9006D2208 /* Main.storyboard in Resources */,
+				659E1D731A62B80600383CB4 /* property.jpg in Resources */,
 				65F5777F1A6167B9006D2208 /* LaunchScreen.xib in Resources */,
+				65342A011A64E9D10093714C /* bl31_tax_third__BL_1315566e.jpg in Resources */,
+				659E1D781A62BCB100383CB4 /* Analog-Camera-for-iOS-app-icon-full-size.jpg in Resources */,
+				659E1D711A62B78D00383CB4 /* banking-jobs.jpg in Resources */,
 				65F5777C1A6167B9006D2208 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,8 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653429FE1A64E2640093714C /* DataViewController.m in Sources */,
 				65F577741A6167B9006D2208 /* PropEval.xcdatamodeld in Sources */,
+				659E83951A639D820080FB15 /* PhotoPickerScr.m in Sources */,
 				65F577711A6167B9006D2208 /* AppDelegate.m in Sources */,
+				659E1D761A62B95F00383CB4 /* DetailsScreen.m in Sources */,
+				659E839D1A63AD600080FB15 /* NotesViewController.m in Sources */,
 				65F577771A6167B9006D2208 /* ViewController.m in Sources */,
 				65F5776E1A6167B9006D2208 /* main.m in Sources */,
 			);
@@ -352,6 +466,7 @@
 				INFOPLIST_FILE = PropEval/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -362,6 +477,7 @@
 				INFOPLIST_FILE = PropEval/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -418,6 +534,7 @@
 				65F577901A6167B9006D2208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F577911A6167B9006D2208 /* Build configuration list for PBXNativeTarget "PropEvalTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +543,7 @@
 				65F577931A6167B9006D2208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

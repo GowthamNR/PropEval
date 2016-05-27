@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource>
+@property(strong,nonatomic) NSMutableArray *PropList;
+- (void)loadInitialData;
+@property (weak, nonatomic) IBOutlet UIPickerView *PropPickerAtSelectionScr;
+- (IBAction)BtnConfirm:(id)sender;
 
 @end
 
